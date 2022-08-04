@@ -46,3 +46,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword());
+
+// function promptBtn(){
+//   var length;
+//   var uppercase;
+//   var lowercase;
+//   var special;
+// }
+
