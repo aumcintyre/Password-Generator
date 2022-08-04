@@ -14,16 +14,16 @@ function generatePassword() {
   var length = prompt("Enter a number between 8 and 128 to set your password length.");
 
   var lowercase = confirm("Do you wish to use lowercase letters?");
-  if (lowercase) { passwordChar += characters.lowercase }
+  if (lowercase){ passwordChar += characters.lowercase }
 
   var uppercase = confirm("Do you wish to use uppercase letters?");
-  if (uppercase) { passwordChar += characters.uppercase }
+  if (uppercase){ passwordChar += characters.uppercase }
 
   var numeric = confirm("Do you wish to use numbers?");
   if(numeric){passwordChar += characters.number}
 
   var special = confirm("Do you wish to use special symbols?");
-  if(special){passwordChar += characters.special}
+  if(special){passwordChar += characters.symbol}
 
   var password = "";
   for (let i = 0; i < length; i++) {
