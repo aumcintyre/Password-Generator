@@ -4,7 +4,7 @@ var characters = {
   lowercase: 'abcdefghijklmnopqrstuvwxyz',
   uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
   number: '0123456789',
-  symbol: "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~",
+  symbol: "!#$%&'()*+,-./:;<=>?@[^_`{|}~",
 };
 
 
