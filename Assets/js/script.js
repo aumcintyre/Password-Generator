@@ -7,7 +7,7 @@ var characters = {
   symbol: "!#$%&'()*+,-./:;<=>?@[^_`{|}~",
 };
 
-generateBtn.addEventListener("click", writePassword());
+generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   var passwordChar = "";
